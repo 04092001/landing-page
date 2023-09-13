@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav ul li {
+}
+
+li .logo {
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-child {
+}
+
+.carousel-section h3 {
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.carousel div {
+  border: 1px solid #3882f6;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+section:nth-child(1) {
+  background-color: #1f2937;
+}
